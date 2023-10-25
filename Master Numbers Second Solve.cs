@@ -27,7 +27,7 @@ static bool Palindrome(int num)
 static bool DivisibleBy7(int num)
 {
     int sum = 0;
-    while (num != 0)
+    while (num > 0)
     {
         sum += num % 10;
         num /= 10;
