@@ -3,7 +3,6 @@ var matrixRows = matrixSize[0];
 var matrixColumns = matrixSize[1];
 var matrix = new char[matrixRows, matrixColumns];
 var counter = 0;
-var maxSequence = 0;
 for (int row = 0; row < matrixRows; row++)
 {
     char[] rowInput = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(char.Parse).ToArray();
